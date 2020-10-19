@@ -19,6 +19,7 @@
   "homepage": "https://github.com/florianbar/portfolio-app-nextjs#readme",
   "dependencies": {
     "next": "^9.5.5",
+    "nprogress": "^0.2.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   }
