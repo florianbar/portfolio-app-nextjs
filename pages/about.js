@@ -22,7 +22,7 @@ const About = ({ user, statusCode }) => {
 };
 
 About.getInitialProps = async (context) => {
-    const response = await fetch('https://api.github.com/users/florssssianbar');
+    const response = await fetch('https://api.github.com/users/florianbar');
     const statusCode = response.status > 200 ? response.status : false;
     const data = await response.json();
     return { 
