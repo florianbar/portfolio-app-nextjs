@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-app-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianbar/portfolio-app-nextjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianbar/portfolio-app-nextjs/issues"
+  },
+  "homepage": "https://github.com/florianbar/portfolio-app-nextjs#readme",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
