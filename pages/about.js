@@ -21,13 +21,15 @@ const About = ({ user, statusCode }) => {
     return content;
 };
 
-About.getInitialProps = async (context) => {
+export async function getStaticProps(context) {
     const response = await fetch('https://api.github.com/users/florianbar');
     const statusCode = response.status > 200 ? response.status : false;
     const data = await response.json();
-    return { 
-        user: data, 
-        statusCode 
+    return {
+        props: {
+            user: data, 
+            statusCode
+        }
     };
 };
 
